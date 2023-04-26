@@ -1,0 +1,113 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 24px;
+  }
+  
+  .panel-izquierdo {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    text-align: center;
+    width: 36%;
+  }
+  
+  .panel-izquierdo .img-panel {
+    margin-bottom: 24px;
+    width: 60%;
+  }
+  
+  .panel-derecho {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    text-align: center;
+    width: 65%;
+  }
+  
+  .mensaje-info {
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+  }
+  
+  .btn-group input[type="text"] {
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 9px;
+    width: 98%;
+    margin: 10px 0px 12px 0px;
+  }
+  
+  .btn-group button {
+    background-color: #083a78;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .btn-group button:hover {
+    background-color: #042b59;
+  }
+
+  .resultados-ocultos {
+    display: none;
+  }
+
+  /* Footer */
+
+  footer {
+    background-color: #F8F8F8;
+    color: #333333;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  footer a {
+    color: #0074D9;
+    text-decoration: none;
+  }
+  
+  

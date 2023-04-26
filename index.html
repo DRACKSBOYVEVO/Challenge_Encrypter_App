@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
+    <meta name="description" content="Encriptador de texto en Javascript. Codifica y decodifica texto con seguridad y rapidez.">
+    <meta name="keywords" content="encriptador de texto, Javascript, codificación, seguridad">
+    <meta name="author" content="Juan José Henao Gutiérrez - Grupo 5 - Colombia">
+    <title>Encriptador de texto con Javascript - Desafío ONE Sprint 01</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="Assets/css/app.css" />
+    <!-- favicons -->
+    <link rel="shortcut icon" href="Assets/Images/favicon.png" type="image/x-icon">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <img src="Assets/Images/Logo-alura.svg" alt="Logo de alura" class="img-logo" />
+    </header>
+
+    <div class="container">
+        <aside class="panel-izquierdo">
+            <img src="Assets/Images/Logo-aside.svg" alt="Logo de alura" class="img-panel" />
+            <h4 class="title-panel">Ningún mensaje fue encontrado</h4>
+            <div id="resultados" class="resultados-ocultos">
+                <p id="texto-cifrado"></p>
+                <p id="texto-desencriptado"></p>
+            </div>
+        </aside>
+
+        <div class="panel-derecho">
+            <i class="fa-solid fa-circle-question" style="margin: 2px"></i>
+            <span class="mensaje-info">Solo letras minúsculas y sin acentos</span>
+
+            <div class="btn-group">
+                <input type="text" id="texto-a-encriptar" placeholder="Ingresa el texto que desees encriptar o desencriptar." / required>
+                <button type="submit" class="btn-encriptar" onclick="if(validarTextoEncriptar()){encriptarTexto()}">Encriptar texto</button>
+
+                <input type="text" id="texto-a-desencriptar" placeholder="Ingrese el texto encriptado aqui" / required>
+                <button type="submit" class="btn-desencriptar" onclick="if(validarTextoDesencriptar()){desencriptarTexto()}">Desencriptar texto</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Desarrollado y diseñado por  <a href="https://www.linkedin.com/in/jjhenao/" target="_blank">Juan José Henao Gutiérrez</a> - Todos los derechos reservados</p>
+        <ul>
+            <li><a href="https://www.oracle.com/co/education/oracle-next-education/">Programa</a></li>
+            <li><a href="https://www.aluracursos.com/">Miembros</a></li>
+        </ul>
+    </footer>
+
+    <script src="Assets/js/script.js"></script>
+</body>
+</html>
