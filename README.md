@@ -1,7 +1,7 @@
 # Encriptador de texto - Alura Challenges ONE
 
 ![Portada de la aplicacion desarrollada del encriptador de texto]
-(https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png)
+(https://github.com/DRACKSBOYVEVO/Challenge_Encrypter_App/blob/master/Assets/Images/portada.png)
 
 El objetivo de este proyecto es construir un encriptador de texto utilizando el lenguaje de programación JavaScript. Este desafío es parte del Alura Challenges ONE, destinado a principiantes en programación.
 
